@@ -1,0 +1,118 @@
+body {
+    padding: 0 0 0 0;
+    background-color: #ffffff;
+    background-image: #000000;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.main-content {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    border-radius:15px;
+    margin: 30px auto 0 auto;
+    background: #fdffff;
+    -webkit-box-shadow: 0 0 22px 0 rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0 0 22px 0 rgba(50, 50, 50, 1);
+    box-shadow:         0 0 22px 0 rgba(50, 50, 50, 1);
+
+
+}
+.main-content p {
+    line-height: 26px;
+}
+.main-content h2 {
+    color: #585858;
+}
+.articles {
+    list-style-type: none;
+    padding: 0;
+}
+.articles img {
+    float: left;
+    padding-right: 11px;
+}
+.articles li {
+    border-top: 1px solid #F1F1F1;
+    background-color: #ffffff;
+    height: 90px;
+    clear: both;
+}
+.articles h3 {
+    margin: 0;
+}
+.articles a {
+    color:#585858;
+    text-decoration: none;
+}
+.articles p {
+    margin: 0;
+}
+
+.article-info {
+    float: left;
+    display: inline-block;
+    margin: 8px 0 8px 0;
+}
+
+
+.article-text {
+    width:350px; 
+    height:100px;
+}
+
+.buttons {
+    height:35px;
+    width:85px;
+    background-color: #e7e7e7;
+    border-radius: 12px;
+    border: 2px solid #e7e7e7;
+    display:inline-block;
+    outline: none;
+    cursor: pointer;
+    box-shadow:0 6px 3px 0 rgba(0,0,0,0.19);
+}
+
+.buttons:hover{
+    background: #dddddd;
+}
+
+.nav {
+    padding-left: 0;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+
+.header {
+    padding: 30px 10px 10px 10px;
+
+}
+
+.header a {
+    color: #585858;
+    font-weight: bold;
+    font-size: 28px;
+    /*font-style: italic;*/
+
+}
+
+.header h1 {
+    text-align: center;
+}
+
+
+.footer {
+    margin-top: 20px;
+}
+.footer p {
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+}
